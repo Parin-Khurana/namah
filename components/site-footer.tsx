@@ -112,7 +112,7 @@ export function SiteFooter() {
             </li>
             <li>
               <Link
-                href="/register"
+                href="/join-us"
                 className="text-sm text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
                 Join Our Team
