@@ -420,7 +420,7 @@ export default function RegisterPage() {
           </motion.div>
         )}
 
-        <StorageInfo />
+        {/* <StorageInfo /> */}
       </div>
     </div>
   )
