@@ -112,7 +112,7 @@ export function SiteFooter() {
             </li>
             <li>
               <Link
-                href="/join-team"
+                href="/register"
                 className="text-sm text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
                 Join Our Team
@@ -120,7 +120,7 @@ export function SiteFooter() {
             </li>
             <li>
               <Link
-                href="/become-sponsor"
+                href="/sponsors"
                 className="text-sm text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
                 Become a Sponsor
