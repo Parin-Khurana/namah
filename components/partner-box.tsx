@@ -161,7 +161,7 @@ export function PartnerBox() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-yellow-600/20 to-red-600/20 z-10"></div>
             <img
-              src="/placeholder.svg?height=500&width=400"
+              src="/this.png?height=500&width=400"
               alt="Partnership opportunities"
               className="w-full h-full object-cover"
             />

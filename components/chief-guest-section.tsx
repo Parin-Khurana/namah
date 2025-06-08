@@ -31,7 +31,7 @@ export function ChiefGuestSection() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-blue-600/10 z-10"></div>
             <img
-              src="/placeholder.svg?height=800&width=600"
+              src="/mg.jpeg?height=800&width=600"
               alt="Maithili Ganjoo"
               className="w-full h-full object-cover"
             />
