@@ -84,7 +84,7 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 pt-6"
           >
-            <Link href="/register">
+            <Link href="/join-us">
               <Button size="lg" className="px-8 rounded-full bg-blue-600 hover:bg-blue-700 text-white">
                 Register Now <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
