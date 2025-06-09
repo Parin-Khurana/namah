@@ -16,15 +16,6 @@ import { FileUpload } from "@/components/file-upload"
 import { uploadFileToBlob } from "@/lib/file-upload"
 import { StorageInfo } from "@/components/storage-info"
 import { SimpleLogo } from "@/components/simple-logo"
-// if (typeof window !== "undefined") {
-//   window.location.replace("/join-us");
-//   // `replace` is better than `href` here: it doesn't leave a back button history entry
-// }
-
-// const RedirectToJoinUs = () => null;
-
-// export default RedirectToJoinUs;
-
 
 export default function RegisterPage() {
   const [step, setStep] = useState(1)
