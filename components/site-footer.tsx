@@ -146,7 +146,7 @@ export function SiteFooter() {
             </li>
             <li className="flex items-center gap-2 text-sm text-muted-foreground">
               <Phone size={16} className="text-blue-600 dark:text-blue-400" />
-              +91 (123) 456-7890
+              +91 99534 11116
             </li>
             <li className="flex items-start gap-2 text-sm text-muted-foreground">
               <MapPin size={16} className="text-blue-600 dark:text-blue-400 mt-1" />

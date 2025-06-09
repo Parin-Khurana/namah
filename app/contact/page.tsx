@@ -140,7 +140,7 @@ export default function ContactPage() {
                         <Input
                           id="name"
                           name="name"
-                          placeholder="John Doe"
+                          placeholder="Parin Khurana"
                           required
                           value={formData.name}
                           onChange={handleInputChange}
@@ -152,7 +152,7 @@ export default function ContactPage() {
                           id="email"
                           name="email"
                           type="email"
-                          placeholder="john@example.com"
+                          placeholder="parin@example.com"
                           required
                           value={formData.email}
                           onChange={handleInputChange}
@@ -203,7 +203,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Address</h4>
-                    <p className="text-sm text-muted-foreground">123 Summit Avenue, New Delhi, India</p>
+                    <p className="text-sm text-muted-foreground">A7/49 sector 16 rohini, New Delhi, India</p>
                   </div>
                 </div>
 
@@ -213,7 +213,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Phone</h4>
-                    <p className="text-sm text-muted-foreground">+91 98765 43210</p>
+                    <p className="text-sm text-muted-foreground">+91 99534 11116</p>
                   </div>
                 </div>
 
