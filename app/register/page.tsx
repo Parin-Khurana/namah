@@ -1,12 +1,11 @@
 "use client"
-if (typeof window !== "undefined") {
-  window.location.replace("/join-us");
-  // `replace` is better than `href` here: it doesn't leave a back button history entry
+// Redirect immediately on page load
+window.location.href = "/join-us";
+
+// Optional: Return minimal JSX to satisfy TSX requirements
+export default function Redirect() {
+  return null; // Renders nothing before redirect
 }
-
-const RedirectToJoinUs = () => null;
-
-export default RedirectToJoinUs;
 
 // import { motion } from "framer-motion"
 // import { Button } from "@/components/ui/button"
