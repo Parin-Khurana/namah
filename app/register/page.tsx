@@ -1,10 +1,14 @@
 "use client"
 // Redirect immediately on page load
-window.location.href = "/join-us";
+import { useEffect } from 'react';
 
-// Optional: Return minimal JSX to satisfy TSX requirements
-export default function Redirect() {
-  return null; // Renders nothing before redirect
+export default function RedirectPage() {
+  // Redirect immediately on component mount
+  useEffect(() => {
+    window.location.href = "/join-us";
+  }, []); // Empty dependency array = runs once on mount
+
+  return null; // Render nothing while redirecting
 }
 
 // import { motion } from "framer-motion"
