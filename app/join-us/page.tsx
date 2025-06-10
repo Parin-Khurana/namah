@@ -82,7 +82,7 @@ export default function JoinUsPage() {
         setIsSubmitted(true)
         toast({
           title: "Application Submitted!",
-          description: "Thank you for your interest in joining NAMAH MUN. We'll contact you soon!",
+          description: "Thank you for your interest in joining NGVS '25. We'll contact you soon!",
         })
       }
     } catch (error) {
