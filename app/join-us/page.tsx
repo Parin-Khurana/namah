@@ -108,7 +108,7 @@ export default function JoinUsPage() {
           </div>
           <h1 className="text-3xl font-bold">Application Submitted Successfully!</h1>
           <p className="text-muted-foreground">
-            Thank you for your interest in joining NAMAH MUN. We have received your membership application and will
+            Thank you for your interest in joining NGVS. We have received your membership application and will
             review it shortly. You'll hear from us within 3-5 business days.
           </p>
           <div className="space-y-2 text-sm text-muted-foreground">
@@ -132,7 +132,7 @@ export default function JoinUsPage() {
     <div className="container py-12 md:py-16 lg:py-24">
       <div className="mx-auto max-w-2xl space-y-8">
         <div className="space-y-2 text-center">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Join NAMAH MUN</h1>
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Join NGVS</h1>
           <p className="text-muted-foreground">
             Become a delegate, chair, or organizer in our Model United Nations community
           </p>
